@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.heading{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    color: springgreen;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+img{
+    height: 150px;
+    width: 150px;
+    /* object-fit: cover; */
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score,
+#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+.msg{
+    display: inline;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.win{
+    display: inline;
+    font-size: 2rem;
+    color: white;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.lose{
+    display: inline;
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.draw{
+    display: inline;
+    font-size: 2rem;
+    color: white;
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.you{
+    display: inline;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
